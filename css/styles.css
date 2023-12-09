@@ -25,7 +25,7 @@ ol {
 img {
   display: block;
 }
-.conteiner {
+.container {
   width: 1158px;
   padding-right: 15px;
   padding-left: 15px;
@@ -37,13 +37,14 @@ img {
 
 .menu {
   background: var(--WHITE, #fff);
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .menu a {
   text-decoration: none;
 }
 
-.menu .conteiner {
+.menu .container {
   display: flex;
   flex-direction: row;
   gap: 76px;
@@ -53,6 +54,7 @@ img {
   display: flex;
   flex-direction: row;
   gap: 76px;
+  align-items: center;
 }
 
 .menu-nav-logo {
@@ -66,6 +68,7 @@ img {
   margin-top: 24px;
   margin-bottom: 24px;
   margin-left: 156px;
+  margin-right: 76px;
 }
 
 .menu-nav-logo-second-part {
@@ -88,6 +91,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.02em;
   list-style-type: none;
+  padding: 24px 0;
 }
 
 .menu-nav-list-link:hover {
@@ -129,9 +133,10 @@ address {
 .hero {
   flex-shrink: 0;
   background: #2e2f42;
+  padding: 188px 0;
 }
 
-.hero .conteiner {
+.hero .container {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -144,6 +149,7 @@ address {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 1.12px;
+  max-width: 496px;
 }
 
 .hero-button {
@@ -153,6 +159,10 @@ address {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
+  min-width: 169px;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
 }
 
 .hero-button:hover {
@@ -174,9 +184,10 @@ address {
 /*section-2*/
 .advantages {
   background: #fff;
+  padding: 120px 0;
 }
 
-.advantages-title {
+.advantages-title .visually-hidden {
   color: var(--NAVY-BLUE, #2e2f42);
   font-size: 20px;
   font-weight: 500;
