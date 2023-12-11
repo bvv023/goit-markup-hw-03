@@ -192,7 +192,7 @@ address {
 
 .advantages-title {
   display: flexbox;
-  visibility: collapse;
+  visibility: hidden;
 }
 
 /**можливо сюди потрібно вставить авонтаж контейнер**/
